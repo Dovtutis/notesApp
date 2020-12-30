@@ -26,7 +26,7 @@ function addNewNote (text = "") {
                 </button>
             </div>
             <div class="main ${text ? "" : "hidden"}"></div>
-            <textarea cla ss="${text ? "hidden" : ""}"></textarea>
+            <textarea class="${text ? "hidden" : ""}"></textarea>
         </div>
         `;
 
